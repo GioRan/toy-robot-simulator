@@ -1,0 +1,28 @@
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.grid-item {
+  outline: 1px solid grey;
+  width: 100px;
+  height: 100px;
+}
+.robot-item {
+  background: url("https://w7.pngwing.com/pngs/357/694/png-transparent-gn-001-gundam-exia-gn001-gundam-exia-sports-equipment-fictional-character-anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  outline: 1px solid white;
+  width: 100px;
+  height: 100px;
+}
